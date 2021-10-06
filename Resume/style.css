@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.main-container {
+    display: flex;
+    /* border: 1px solid; */
+    background-color: #e6e6e6;
+    height: auto;
+    width: 70%;
+    margin: 0 auto;
+    padding: 14px;
+    font-family: 'Nunito', sans-serif;
+}
+.container {
+    /* display: flex; */
+    /* border: 1px solid; */
+    background-color: #e6e6e6;
+    width: 70%;
+}
+.contactDiv {
+    /* display: flex; */
+    background-color: #014c83;
+    /* border: 1px solid; */
+    width: 30%;
+    color: white;
+    padding: 15px;
+    align-items: center;
+}
+.contact{
+    border-bottom: 3px solid white;
+}
+.header{
+    text-align: center;
+    align-items: center;
+    border-bottom: 4px solid rgb(15, 182, 238);
+    /* border: 1px solid; */
+}
+.profile{
+    /* border: 2px solid; */
+    /* padding: 2px; */
+    align-items: center;
+    line-height: 2rem;
+}
+.profile h2{
+    border-bottom: 1px solid #888;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.edu1{
+    border-bottom: 3px solid #888;
+}
+.Div1{
+    border-bottom: 2px solid #888;
+    display: flex;
+    gap: 3rem;
+}
+.Div2{
+    /* border: 2px solid; */
+    display: flex;
+    gap: 4rem;
+    border-bottom: 2px solid #888;
+}
+.Div3{
+    /* border: 2px solid; */
+    display: flex;
+    gap: 4rem;
+    border-bottom: 2px solid #888;
+}
+.degree p {
+    line-height: 2rem;
+}
+.others {
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+}
+.details {
+    display: flex;
+}
+.PersonalDetails {
+    flex: 1;
+}
+.otherinfo{
+    align-items: center;
+    border-bottom: 3px solid #888;
+}
+.list1{
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+    /* border: 1px solid; */
+}
+.list1 .location p label {
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.location{
+    /* display: flex; */
+    /* gap:1rem; */
+}
+
+.list2{
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+    /* border: 1px solid; */
+}
+.list2 .phone p label {
+    font-weight: bold;
+    font-size: 18px;
+}
+.email p label {
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.phone{
+    display: flex;
+} 
+
+.email{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+}
+.skills{
+    /* border: 2px solid; */
+    border-bottom: 3px solid white;
+}
+.computerSkills{
+    /* border: 2px solid; */
+    border-bottom: 1px solid white;
+}
+.interpersonal{
+    /* border: 2px solid; */
+    border-bottom: 1px solid white;
+}
+}
+.languages{
+    /* border: 2px solid; */
+    border-bottom: 1px solid white;
+}
